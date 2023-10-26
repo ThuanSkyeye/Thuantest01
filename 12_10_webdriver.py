@@ -5,7 +5,7 @@ import time
 
 # Khởi tạo trình duyệt Chrome
 driver = webdriver.Chrome()
-# driver.maximize_window()
+driver.maximize_window()
 
 # Định nghĩa bài kiểm tra
 def test_search_playwright_on_google():
